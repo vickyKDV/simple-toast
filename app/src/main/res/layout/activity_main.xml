@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <Button
+            android:id="@+id/btnSuccessToast"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="succcess - Toast Top"
+            android:textColor="@color/white"
+            app:backgroundTint="@color/toast_shape_success" />
+
+
+        <Button
+            android:id="@+id/btnErroraToast"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="Error - Toast Top"
+            android:textColor="@color/white"
+            app:backgroundTint="@color/toast_shape_error" />
+
+        <Button
+            android:id="@+id/btnWarningToast"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="Warning - Toast Top"
+            android:textColor="@color/black"
+            app:backgroundTint="@color/toast_shape_warning" />
+
+        <Button
+            android:id="@+id/btnTop"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="Info - Top Toast"
+            android:textColor="@color/white"
+            app:backgroundTint="@color/toast_shape_info" />
+
+        <Button
+            android:id="@+id/btnCenter"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="Info - Center Toast"
+            android:textColor="@color/white"
+            app:backgroundTint="@color/toast_shape_info" />
+
+        <Button
+            android:id="@+id/btnBottom"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="Info - Bottom Toast"
+            android:textColor="@color/white"
+            app:backgroundTint="@color/toast_shape_info" />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

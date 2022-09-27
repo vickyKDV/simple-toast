@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="toast_shape_info">#5BBBF1</color>
+    <color name="toast_shape_warning">#F1D85B</color>
+    <color name="toast_shape_error">#FF6132</color>
+    <color name="toast_shape_success">#2EAA4B</color>
+    <color name="toast_shape_default">#404040</color>
+    <color name="color_ic_toats_warning">#FFF598</color>
+    <color name="color_ic_toats_success">#7FFF9B</color>
+    <color name="color_ic_toats_confirm">#FFFFFF</color>
+    <color name="color_ic_toats_error">#FFAF96</color>
+    <color name="color_toast_text_black">#000000</color>
+</resources>
